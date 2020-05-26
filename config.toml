@@ -11,11 +11,11 @@ menu_exclusion = [
 ]
 
 [params.hero]
-    headline = "Paketo Buildpacks"
-    subheadline = "Less time building, more time developing"
+    headline = "Less time building, more time developing"
+    subheadline = "Paketo Buildpacks let you build container images for the most popular languages"
 
-    cta_text = "Read the announcement"
-    cta_link = "https://medium.com/paketo-buildpacks/building-apps-for-kubernetes-get-to-know-paketo-buildpacks-6dc29b0f3cf3"
+    cta_text = "Get Started"
+    cta_link = "/docs/"
 
     [[params.hero.logos]]
         [[params.hero.logos.item]]
@@ -44,14 +44,12 @@ menu_exclusion = [
 
 [params.what_are_buildpacks]
   headline = "What are Buildpacks?"
-  description = "Cloud Native Buildpacks is a Sandbox project in the Cloud Native Computing Foundation (CNCF) that provides a high-level, performant abstraction for building container images. Cloud Native Buildpacks is an evolution of the buildpacks concept that originated with PaaS like Cloud Foundry."
+  description = "Buildpacks transform your application source code to images that can run on any cloud. Cloud Native Buildpacks is a Sandbox project in the Cloud Native Computing Foundation (CNCF) that provides a high-level, performant abstraction for building container images."
+  paketo_description = "Paketo Buildpacks provide language runtime support for applications. They leverage the Cloud Native Buildpacks framework to make image builds easy, performant, and secure."
   cta_text = "More about the Cloud Native Buildpacks project"
   cta_link = "https://buildpacks.io"
 
 [params.what_are_paketo_buildpacks]
-  headline = "What are Paketo Buildpacks?"
-  description = "Modular Buildpacks, written in Go. Paketo Buildpacks provide language runtime support for applications. They leverage the Cloud Native Buildpacks framework to make image builds easy, performant, and secure."
-
   [[params.what_are_paketo_buildpacks.item]]
     name = "Node.js"
 
@@ -73,6 +71,10 @@ menu_exclusion = [
 
   [[params.what_are_paketo_buildpacks.item]]
     name = "Java"
+    
+    [[params.what_are_paketo_buildpacks.item.subitem]]
+      elem_name = "Java"
+      elem_link = "https://github.com/paketo-buildpacks/java"
 
     [[params.what_are_paketo_buildpacks.item.subitem]]
       elem_name = "↳ Adopt-openjdk"
@@ -241,15 +243,17 @@ menu_exclusion = [
 
   
 [params.get_started]
-  headline = "Getting Started"
+  headline = "Get Started"
+  description = "The fastest way to get going with Paketo Buildpacks is with any of our Paketo builders"
+  sub_description = "Check out our tutorial to learn more!"
 
   [[params.get_started.item]]
     icon = "paketo-tutorial.svg"
     text = "Tutorial"
-    link = "https://medium.com/paketo-buildpacks/building-apps-for-kubernetes-get-to-know-paketo-buildpacks-6dc29b0f3cf3"
+    link = "/docs/"
 
   [[params.get_started.item]]
     icon = "paketo-documentation.svg"
-    text = "Docs"
-    link = "/docs/"
+    text = "Announcement"
+    link = "https://medium.com/paketo-buildpacks/building-apps-for-kubernetes-get-to-know-paketo-buildpacks-6dc29b0f3cf3"
 
