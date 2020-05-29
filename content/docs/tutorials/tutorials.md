@@ -1,7 +1,11 @@
 ---
-title: "Where Do Buildpacks Factor In"
+title: "Tutorials"
 date: 2020-03-31T12:50:55-04:00
-weight: 5
+menu: 
+  main: 
+     identifier: "tutorials"
+     title: "Tutorials"
+     weight: 300
 ---
 
 # Where Do Buildpacks Factor In

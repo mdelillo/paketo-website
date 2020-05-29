@@ -1,10 +1,10 @@
 ---
-title: "Getting Started"
+title: "Reference"
 date: 2020-03-31T12:50:55-04:00
 menu: 
   main: 
-     title: "Getting Started"
-     weight: 100
+     title: "Reference"
+     weight: 400
 ---
 # Getting Started
 

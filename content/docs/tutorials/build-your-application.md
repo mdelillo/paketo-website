@@ -1,7 +1,11 @@
 ---
-title: "Building Your Application"
+title: "Using Paketo Buildpack"
 date: 2020-03-31T12:50:55-04:00
-weight: 4
+menu: 
+  main: 
+     title: "Using Paketo Buildpack"
+     parent: "tutorials"
+     weight: 310
 ---
 
 

@@ -1,8 +1,13 @@
 ---
-title: "Build an Example App"
+title: "Creating a Paketo Buildpack"
 date: 2020-03-31T12:50:55-04:00
-weight: 3
+menu: 
+  main: 
+     title: "Creating a Paketo Buildpack"
+     parent: "tutorials"
+     weight: 320
 ---
+
 # Build An Example App
 First lets create a simple Node.js application to build.
 It should have the following structure:

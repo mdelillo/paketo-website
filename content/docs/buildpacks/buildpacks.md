@@ -1,12 +1,13 @@
 ---
-title: "Getting Started"
+title: "Buildpacks"
 date: 2020-03-31T12:50:55-04:00
 menu: 
-  main: 
-     title: "Getting Started"
-     weight: 100
+  main:
+    identifier: "buildpacks"
+    title: "Buildpacks"
+    weight: 200
 ---
-# Getting Started
+# Buildpacks
 
 ## Prerequisites
 Before using a paketo buildpacks to build an application image we need the following tools.
