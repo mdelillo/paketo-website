@@ -5,6 +5,6 @@ menu:
   main: 
      title: "Node.js Paketo Buildpack"
      parent: "buildpacks"
-     weight: 140
+     weight: 210
 ---
 # Getting Started

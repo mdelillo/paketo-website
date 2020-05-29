@@ -5,6 +5,6 @@ menu:
   main: 
      title: "Java Paketo Buildpack"
      parent: "buildpacks"
-     weight: 210
+     weight: 220
 ---
 # Getting Started
