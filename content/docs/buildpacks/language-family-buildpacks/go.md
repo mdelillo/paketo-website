@@ -16,7 +16,8 @@ To build a sample app locally with this buildpack using the `pack` CLI, run
 {{< code/copyable >}}
 git clone https://github.com/paketo-buildpacks/samples
 cd samples/go/mod
-pack build my-app --buildpack gcr.io/paketo-buildpacks/go
+pack build my-app --buildpack gcr.io/paketo-buildpacks/go \
+  --builder paketobuildpacks/builder:base
 {{< /code/copyable >}}
 
 See [samples](https://github.com/paketo-buildpacks/samples/tree/main/go/mod)
